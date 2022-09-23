@@ -2,7 +2,8 @@ import pytest
 
 
 def always_returns_true():
-    return False
+    print("It's always true Tazmeen!")
+    return True
 
 
 def test_always_returns_true():
